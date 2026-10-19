@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="id">
+  <!-- =========================================
+       DOCUMENT HEAD
+  ========================================== -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Struktur organisasi, daftar guru, dan tenaga kependidikan Universitas Tadulako."
+    />
+    <meta name="author" content="SD INPRES PERUMNAS PALU" />
+    <meta name="theme-color" content="#1b4b8f" />
+    <title>Guru &amp; Tenaga Pendidik - SD INPRES PERUMNAS PALU</title>
+
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="gambar perumnas/logo perumnas.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- =========================================
+         NAVBAR
+    ========================================== -->
+    <header class="nav" id="nav">
+      <div class="container nav__inner">
+        <a
+          class="nav__brand"
+          href="index.html#beranda"
+          aria-label="SD INPRES PERUMNAS PALU, kembali ke beranda"
+        >
+          <img
+            class="nav-logo"
+            src="gambar perumnas/logo perumnas.png"
+            alt="SD INPRES PERUMNAS PALU"
+            width="46"
+            height="46"
+          />
+          <span class="nav__brand-text">
+            <strong class="nav__brand-name">SD INPRES PERUMNAS PALU</strong>
+            <span class="nav__brand-tag">Berprestasi &middot; Berkarakter</span>
+          </span>
+        </a>
+
+        <button
+          class="nav__toggle"
+          id="navToggle"
+          type="button"
+          aria-label="Buka menu navigasi"
+          aria-expanded="false"
+          aria-controls="navMenu"
+        >
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+
+        <nav class="nav__menu" id="navMenu" aria-label="Navigasi utama">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="index.html#beranda">Beranda</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="index.html#tentang-kami"
+                >Tentang Kami</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link is-active" href="guru.html">Guru</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="index.html#kabar-terkini"
+                >Kabar Terkini</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="index.html#prestasi">Prestasi</a>
+            </li>
+          </ul>
+          <a class="btn btn--accent nav__cta" href="index.html#spmb"
+            >Informasi</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main class="guru-page">
+      <!-- =========================================
+           GURU - PAGE HERO
+      ========================================== -->
+      <section class="guru-hero" id="guru-hero">
+        <div class="home-hero__media">
+          <img
+            class="home-hero__image"
+            src="gambar perumnas/perumnas 4.jpeg"
+            alt="Gedung  SD INPRES PERUMNAS"
+            width="1600"
+            height="760"
+          />
+        </div>
+        <div class="container guru-hero__inner">
+          <div class="guru-hero__content">
+            <p class="guru-hero__badge">
+              <span class="guru-hero__badge-dot" aria-hidden="true"></span>
+              Tenaga Pendidik dan Kependidikan
+            </p>
+
+            <h1 class="guru-hero__title">
+              Orang-Orang di Balik<br />
+              <span class="guru-hero__title-accent">Setiap Prestasi</span>
+              Siswa
+            </h1>
+
+            <p class="guru-hero__desc">
+              Kenali struktur organisasi sekolah, guru yang mendampingi anak
+              Anda setiap hari, serta tenaga kependidikan yang menjalankan
+              operasional sekolah dengan penuh tanggung jawab.
+            </p>
+
+            <div class="guru-hero__actions">
+              <a class="btn btn--accent" href="#struktur-organisasi"
+                >Lihat Struktur Organisasi</a
+              >
+              <a class="btn btn--ghost" href="index.html">Kembali ke Beranda</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================
+           GURU - ORGANIZATION STRUCTURE
+      ========================================== -->
+      <section class="guru-organization" id="struktur-organisasi">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="section-label">Struktur Organisasi</p>
+            <h2 class="guru-organization__title">
+              Bagan Struktur Organisasi Sekolah
+            </h2>
+            <p class="section-desc">
+              Urutan kepemimpinan dari kepala sekolah hingga tenaga
+              kependidikan, menjelaskan siapa yang bertanggung jawab pada setiap
+              bidang.
+            </p>
+          </header>
+
+          <div class="guru-organization__chart reveal">
+            <!-- TIER 1: KEPALA SEKOLAH -->
+            <div class="guru-org-tier">
+              <div class="guru-org-node guru-org-node--lead">
+                <span class="guru-org-node__role">Kepala Sekolah</span>
+                <strong class="guru-org-node__name"
+                  >Sitti Utari Muhamad Tahir, S.Pd</strong
+                >
+                <span class="guru-org-node__field">
+                  NIP 19710321 199312 2 002</span
+                >
+              </div>
+            </div>
+
+            <div class="guru-org-connector" aria-hidden="true"></div>
+
+            <!-- TIER 2: WAKIL KEPALA SEKOLAH -->
+            <div class="guru-org-tier">
+              <div class="guru-org-node">
+                <span class="guru-org-node__role">KOMITE SEKOLAH </span>
+                <strong class="guru-org-node__name">Nama komite </strong>
+                <span class="guru-org-node__field">Bidang Kurikulum</span>
+              </div>
+            </div>
+
+            <div class="guru-org-connector" aria-hidden="true"></div>
+            <!--spasi tanda panah -->
+            <div class="guru-org-tier">
+              <div class="guru-org-node">
+                <span class="guru-org-node__role">Wakil Kepala Sekolah</span>
+                <strong class="guru-org-node__name"
+                  >Samsu Alam, S.Pd., M.Pd</strong
+                >
+                <span class="guru-org-node__field">NIP 198210162014071001</span>
+              </div>
+            </div>
+            <div class="guru-org-connector" aria-hidden="true"></div>
+            <!--spasi tanda panah -->
+            <!--guru kelas -->
+            <div class="guru-org-tier">
+              <div class="guru-org-node">
+                <span class="guru-org-node__role">KELAS I A</span>
+                <strong class="guru-org-node__name">Rahmatila, S.E</strong>
+                <span class="guru-org-node__field">NIP 197607232024212002</span>
+              </div>
+              <div class="guru-org-node">
+                <span class="guru-org-node__role">KELAS I B</span>
+                <strong class="guru-org-node__name"> Sukrah, S.Pd </strong>
+                <span class="guru-org-node__field">NIP 196906032023212004</span>
+              </div>
+              <div class="guru-org-node">
+                <span class="guru-org-node__role">KELAS II A</span>
+                <strong class="guru-org-node__name"> Nur Khairiah, S.Pd</strong>
+                <span class="guru-org-node__field">198708212023212032</span>
+              </div>
+            </div>
+            <div class="guru-org-connector" aria-hidden="true"></div>
+            <!--spasi tanda panah -->
+            <div class="guru-org-tier">
+              <div class="guru-org-node">
+                <span class="guru-org-node__role">KELAS II B</span>
+                <strong class="guru-org-node__name"></strong>
+                <span class="guru-org-node__field"></span>
+              </div>
+              <div class="guru-org-node">
+                <span class="guru-org-node__role">III A</span>
+                <strong class="guru-org-node__name">
+                  Elsa Sukryana, S.Pd, M.M
+                </strong>
+                <span class="guru-org-node__field">NIP 199506132023212023</span>
+              </div>
+              <div class="guru-org-node">
+                <span class="guru-org-node__role">KELAS III B</span>
+                <strong class="guru-org-node__name">Nurmawarni, S.Pd</strong>
+                <span class="guru-org-node__field">NIP 197604222007012012</span>
+              </div>
+            </div>
+            <div class="guru-org-connector" aria-hidden="true"></div>
+            <!--spasi tanda panah -->
+            <div class="guru-org-tier">
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role">KELAS IV A</span>
+                <strong class="guru-org-node__name"> Sarini, S.Pd </strong>
+                <span class="guru-org-node__field">NIP 198105062002112002</span>
+              </div>
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role">KELAS IV B</span>
+                <strong class="guru-org-node__name">
+                  Endah Pustita Sari, S.Pd
+                </strong>
+                <span class="guru-org-node__field">NIP 197305152007012022</span>
+              </div>
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role">KELAS V A</span>
+                <strong class="guru-org-node__name"> Tri Umiyati, S.Pd </strong>
+                <span class="guru-org-node__field">NIP 199307052023212030</span>
+              </div>
+            </div>
+            <div class="guru-org-connector" aria-hidden="true"></div>
+            <!--spasi tanda panah -->
+            <div class="guru-org-tier">
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role">KELAS V B</span>
+                <strong class="guru-org-node__name"
+                  >Samsu Alam, S.Pd., M.Pd</strong
+                >
+                <span class="guru-org-node__field">NIP 198210162014071001</span>
+              </div>
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role">KELAS VI</span>
+                <strong class="guru-org-node__name">
+                  Farisna Rohmawati, S.Pd
+                </strong>
+                <span class="guru-org-node__field">NIP 198804222023212033</span>
+              </div>
+            </div>
+            <div class="guru-org-connector" aria-hidden="true"></div>
+            <!--spasi tanda panah -->
+            <div class="guru-org-tier">
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role">GURU AGAMA </span>
+                <strong class="guru-org-node__name">Hasanuddin, S.Pd </strong>
+                <span class="guru-org-node__field">NIP 197108171997171001</span>
+              </div>
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role">GURU AGAMA</span>
+                <strong class="guru-org-node__name">Elda Afdelita, S.Pd</strong>
+                <span class="guru-org-node__field">NIP 199408072025212058</span>
+              </div>
+            </div>
+            <div class="guru-org-connector" aria-hidden="true"></div>
+            <!--spasi tanda panah -->
+            <div class="guru-org-tier">
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role">PJOK</span>
+                <strong class="guru-org-node__name">
+                  Zainudin Husain, S.Pd
+                </strong>
+                <span class="guru-org-node__field">NIP 199104202023211011</span>
+              </div>
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role">PJOK</span>
+                <strong class="guru-org-node__name">
+                  Isnan Aditya, S.Pd
+                </strong>
+                <span class="guru-org-node__field">NIP 199811232025211012</span>
+              </div>
+            </div>
+            <div class="guru-org-connector" aria-hidden="true"></div>
+            <!--spasi tanda panah -->
+            <div class="guru-org-tier">
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role">ADMINITRASI PERKANTORAN</span>
+                <strong class="guru-org-node__name">Galib</strong>
+                <span class="guru-org-node__field">NIP 198505182026211002</span>
+              </div>
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role">ADMINITRASI PERKANTORAN</span>
+                <strong class="guru-org-node__name"> Hajnan </strong>
+                <span class="guru-org-node__field">NIP 197812182025212016</span>
+              </div>
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role">ADMINITRASI PERKANTORAN</span>
+                <strong class="guru-org-node__name"> Zen </strong>
+                <span class="guru-org-node__field">NIP 197402252025211012</span>
+              </div>
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role"
+                  >PENATA LAYANAN OPRASIONAL
+                </span>
+                <strong class="guru-org-node__name">Zulidar, S.Pd </strong>
+                <span class="guru-org-node__field">
+                  NIP 198712092025212036</span
+                >
+              </div>
+              <div class="guru-org-node guru-org-node--group">
+                <span class="guru-org-node__role">OPERATOR DAPODIK</span>
+                <strong class="guru-org-node__name">
+                  Dwi Fitri Pujawati, S.Ak
+                </strong>
+                <span class="guru-org-node__field">NIP 200001082026212002</span>
+              </div>
+            </div>
+
+            <div class="guru-org-connector" aria-hidden="true"></div>
+            <!--spasi tanda panah -->
+            <!-- TIER 5: TENAGA KEPENDIDIKAN -->
+            <div class="guru-org-tier">
+              <div class="guru-org-node guru-org-node--wide">
+                <span class="guru-org-node__role">Tenaga Kependidikan</span>
+                <strong class="guru-org-node__name">
+                  Tim Penunjang Operasional Sekolah
+                </strong>
+                <ul class="guru-org-node__tags">
+                  <li>ADMINITRASI PERKANTORAN</li>
+                  <li>OPERATOR DAPODIK</li>
+                  <li>OPERATOR DAPODIK</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================
+           GURU - PRINCIPAL
+      ========================================== -->
+      <section class="guru-principal" id="kepala-sekolah">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="section-label">Pemimpin Sekolah</p>
+            <h2 class="section-title">Kepala Sekolah</h2>
+            <p class="section-desc">
+              Bertanggung jawab atas visi, arah, dan seluruh proses pendidikan
+              di sekolah.
+            </p>
+          </header>
+
+          <article class="guru-principal__card reveal">
+            <div class="guru-principal__media">
+              <img
+                src="gambar guru perumnas/KEPSEK PUTIH.jpg"
+                alt="Potret kepala sekolah"
+                width="600"
+                height="720"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="guru-principal__body">
+              <p class="guru-principal__role">Kepala Sekolah</p>
+              <h3 class="guru-principal__name">
+                Sitti Utari Muhamad Tahir, S.Pd.
+              </h3>
+              <p class="guru-principal__text">
+                Memastikan setiap program sekolah berjalan sesuai visi:
+                pembelajaran berkarakter, penguatan literasi dan numerasi, serta
+                kemitraan yang erat dengan orang tua siswa.
+              </p>
+              <blockquote class="guru-principal__quote">
+                <p>
+                  Guru terbaik pun tetap membutuhkan sistem sekolah yang sehat.
+                  Tugas saya adalah menjaga sistem itu agar setiap guru bisa
+                  fokus mendidik.
+                </p>
+              </blockquote>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- =========================================
+           GURU - VICE PRINCIPALS
+      ========================================== -->
+      <section class="guru-vice-principals" id="wakil-kepala">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="section-label">Pimpinan Bidang</p>
+            <h2 class="section-title">Wakil Kepala Sekolah</h2>
+            <p class="section-desc">
+              Membantu kepala sekolah menjalankan program pada bidang
+              masing-masing.
+            </p>
+          </header>
+
+          <div class="guru-vice-principals__grid">
+            <article class="guru-vice-card reveal">
+              <div class="guru-vice-card__media">
+                <img
+                  src="gambar guru perumnas/P. ALAM PGRI.jpg"
+                  alt="Foto Nama Wakil Kepala 01"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-vice-card__body">
+                <h3 class="guru-vice-card__name">Nama Wakil Kepala</h3>
+                <p class="guru-vice-card__role">
+                  Wakil Kepala Bidang Kurikulum
+                </p>
+                <p class="guru-vice-card__text">
+                  Menyusun jadwal pelajaran, mengawasi mutu pembelajaran, dan
+                  mengevaluasi capaian akademik setiap semester.
+                </p>
+                <h3>Samsu Alam, S.Pd., M.Pd</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================
+           GURU - TEACHERS
+      ========================================== -->
+      <section class="guru-teachers" id="guru">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="section-label">Dewan Guru</p>
+            <h2 class="section-title">Guru Kelas</h2>
+            <p class="section-desc">
+              Daftar Guru kelas SD inpres perumnas Palu
+            </p>
+          </header>
+
+          <div class="guru-teachers__grid">
+            <article class="guru-teacher-card reveal">
+              <div class="guru-teacher-card__media">
+                <img
+                  src="gambar guru perumnas/I. TILLA.png"
+                  alt="Foto Nama Guru 01"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-teacher-card__body">
+                <h3 class="guru-teacher-card__name">Rahmatila, S.E</h3>
+                <p class="guru-teacher-card__subject">Guru Kelas I</p>
+                <span class="guru-teacher-card__badge"
+                  >NIP 197607232024212002</span
+                >
+              </div>
+            </article>
+
+            <article class="guru-teacher-card reveal">
+              <div class="guru-teacher-card__media">
+                <img
+                  src="gambar guru perumnas/I. SUKRAH PGRI.jpg"
+                  alt="Foto Nama Guru 02"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-teacher-card__body">
+                <h3 class="guru-teacher-card__name">Sukrah, S.Pd</h3>
+                <p class="guru-teacher-card__subject">Guru Kelas I B</p>
+                <span class="guru-teacher-card__badge"
+                  >NIP 196906032023212004</span
+                >
+              </div>
+            </article>
+
+            <article class="guru-teacher-card reveal">
+              <div class="guru-teacher-card__media">
+                <img
+                  src="gambar guru perumnas/I. RIA PGRI.jpg"
+                  alt="Foto Nama Guru 03"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-teacher-card__body">
+                <h3 class="guru-teacher-card__name">Nur Khairiah, S.Pd</h3>
+                <p class="guru-teacher-card__subject">Guru Kelas II A</p>
+                <span class="guru-teacher-card__badge"
+                  >NIM 198708212023212032</span
+                >
+              </div>
+            </article>
+
+            <article class="guru-teacher-card reveal">
+              <div class="guru-teacher-card__media">
+                <img
+                  src="img/guru-placeholder.svg"
+                  alt="Foto Nama Guru 04"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-teacher-card__body">
+                <h3 class="guru-teacher-card__name">Nama</h3>
+                <p class="guru-teacher-card__subject">Kelas II B</p>
+                <span class="guru-teacher-card__badge">NIM</span>
+              </div>
+            </article>
+
+            <article class="guru-teacher-card reveal">
+              <div class="guru-teacher-card__media">
+                <img
+                  src="gambar guru perumnas/I. ELSA PGRI.jpg"
+                  alt="Foto Nama Guru 05"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-teacher-card__body">
+                <h3 class="guru-teacher-card__name">
+                  Elsa Sukryana, S.Pd, M.M
+                </h3>
+                <p class="guru-teacher-card__subject">Guru Kelas III A</p>
+                <span class="guru-teacher-card__badge"
+                  >>NIP 199506132023212023</span
+                >
+              </div>
+            </article>
+
+            <article class="guru-teacher-card reveal">
+              <div class="guru-teacher-card__media">
+                <img
+                  src="gambar guru perumnas/I. RANI PGRI.jpg"
+                  alt="Foto Nama Guru 06"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-teacher-card__body">
+                <h3 class="guru-teacher-card__name">Nurmawarni, S.Pd</h3>
+                <p class="guru-teacher-card__subject">Guru Kelas III B</p>
+                <span class="guru-teacher-card__badge"
+                  >NIP 197604222007012012</span
+                >
+              </div>
+            </article>
+
+            <article class="guru-teacher-card reveal">
+              <div class="guru-teacher-card__media">
+                <img
+                  src="gambar guru perumnas/I. SARINI PGRI.jpg"
+                  alt="Foto Nama Guru 07"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-teacher-card__body">
+                <h3 class="guru-teacher-card__name">Sarini, S.Pd</h3>
+                <p class="guru-teacher-card__subject">Guru Kelas IV A</p>
+                <span class="guru-teacher-card__badge"
+                  >NIP 198105062002112002</span
+                >
+              </div>
+            </article>
+
+            <article class="guru-teacher-card reveal">
+              <div class="guru-teacher-card__media">
+                <img
+                  src="gambar guru perumnas/I. ENDAH PGRI.jpg"
+                  alt="Foto Nama Guru 08"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-teacher-card__body">
+                <h3 class="guru-teacher-card__name">
+                  Endah Pustita Sari, S.Pd
+                </h3>
+                <p class="guru-teacher-card__subject">Guru Kelas IV B</p>
+                <span class="guru-teacher-card__badge"
+                  >NIP 197305152007012022</span
+                >
+              </div>
+            </article>
+
+            <article class="guru-teacher-card reveal">
+              <div class="guru-teacher-card__media">
+                <img
+                  src="gambar guru perumnas/I. UMI PGRI.jpg"
+                  alt="Foto Nama Guru 09"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-teacher-card__body">
+                <h3 class="guru-teacher-card__name">Tri Umiyati, S.Pd</h3>
+                <p class="guru-teacher-card__subject">Guru Kelas V A</p>
+                <span class="guru-teacher-card__badge"
+                  >NIP 197305152007012022</span
+                >
+              </div>
+            </article>
+
+            <article class="guru-teacher-card reveal">
+              <div class="guru-teacher-card__media">
+                <img
+                  src="gambar guru perumnas/P. ALAM PGRI.jpg"
+                  alt="Foto Nama Guru 10"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-teacher-card__body">
+                <h3 class="guru-teacher-card__name">Samsu Alam, S.Pd., M.Pd</h3>
+                <p class="guru-teacher-card__subject">Guru Kelas V B</p>
+                <span class="guru-teacher-card__badge"
+                  >NIP 198210162014071001
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================
+           GURU - STAFF
+      ========================================== -->
+      <section class="guru-staff" id="tenaga-kependidikan">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="section-label">Penunjang Sekolah</p>
+            <h2 class="section-title">Tenaga Kependidikan</h2>
+            <p class="section-desc">
+              Data dummy untuk keperluan tampilan. Ganti dengan data tenaga
+              kependidikan sekolah yang sebenarnya bila sudah tersedia.
+            </p>
+          </header>
+
+          <div class="guru-staff__grid">
+            <article class="guru-staff-card reveal">
+              <div class="guru-staff-card__media">
+                <img
+                  src="img/guru-placeholder.svg"
+                  alt="Foto Nama Staf 01"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-staff-card__body">
+                <h3 class="guru-staff-card__name">Nama Staf 01</h3>
+                <p class="guru-staff-card__role">Tata Usaha</p>
+              </div>
+            </article>
+
+            <article class="guru-staff-card reveal">
+              <div class="guru-staff-card__media">
+                <img
+                  src="img/guru-placeholder.svg"
+                  alt="Foto Nama Staf 02"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-staff-card__body">
+                <h3 class="guru-staff-card__name">Nama Staf 02</h3>
+                <p class="guru-staff-card__role">Operator Sekolah</p>
+              </div>
+            </article>
+
+            <article class="guru-staff-card reveal">
+              <div class="guru-staff-card__media">
+                <img
+                  src="img/guru-placeholder.svg"
+                  alt="Foto Nama Staf 03"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-staff-card__body">
+                <h3 class="guru-staff-card__name">Nama Staf 03</h3>
+                <p class="guru-staff-card__role">Pustakawan</p>
+              </div>
+            </article>
+
+            <article class="guru-staff-card reveal">
+              <div class="guru-staff-card__media">
+                <img
+                  src="img/guru-placeholder.svg"
+                  alt="Foto Nama Staf 04"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-staff-card__body">
+                <h3 class="guru-staff-card__name">Nama Staf 04</h3>
+                <p class="guru-staff-card__role">Laboran</p>
+              </div>
+            </article>
+
+            <article class="guru-staff-card reveal">
+              <div class="guru-staff-card__media">
+                <img
+                  src="img/guru-placeholder.svg"
+                  alt="Foto Nama Staf 05"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-staff-card__body">
+                <h3 class="guru-staff-card__name">Nama Staf 05</h3>
+                <p class="guru-staff-card__role">Administrasi</p>
+              </div>
+            </article>
+
+            <article class="guru-staff-card reveal">
+              <div class="guru-staff-card__media">
+                <img
+                  src="img/guru-placeholder.svg"
+                  alt="Foto Nama Staf 06"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                />
+              </div>
+              <div class="guru-staff-card__body">
+                <h3 class="guru-staff-card__name">Nama Staf 06</h3>
+                <p class="guru-staff-card__role">Teknisi Laboratorium</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <a class="footer__brand-box" href="#beranda">
+              <img
+                class="footer__logo"
+                src="gambar perumnas/logo perumnas 2.jpeg"
+                alt="Logo SD INPRES PERUMNAS"
+                width="52"
+                height="52"
+              />
+              <span class="footer__brand-text">
+                <strong class="footer__name">SD INPRES PERUMNAS PALU</strong>
+                <small class="footer__tagline"
+                  >Berprestasi, Berkarakter, Berbudaya</small
+                >
+              </span>
+            </a>
+            <p class="footer__desc">
+              Sekolah unggulan terakreditasi A dengan pembelajaran yang
+              inklusif.
+            </p>
+            <ul class="footer__social">
+              <li>
+                <a href="#beranda" aria-label="Facebook SMA Nusantara">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.7c0-.9.3-1.6 1.6-1.6h1.7V4.2c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.6H7.7V14h2.7v8h3.1Z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#beranda"
+                  aria-label="Instagram SD INPRES PERUMNAS PALU"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    aria-hidden="true"
+                  >
+                    <rect x="3.5" y="3.5" width="17" height="17" rx="5" />
+                    <circle cx="12" cy="12" r="4" />
+                    <circle
+                      cx="17"
+                      cy="7"
+                      r="1.2"
+                      fill="currentColor"
+                      stroke="none"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#beranda" aria-label="YouTube SD INPRES PERUMNAS PALU">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M21.6 8.2a2.5 2.5 0 0 0-1.8-1.8C18.2 6 12 6 12 6s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 8.2C2 9.8 2 12 2 12s0 2.2.4 3.8a2.5 2.5 0 0 0 1.8 1.8C5.8 18 12 18 12 18s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8C22 14.2 22 12 22 12s0-2.2-.4-3.8ZM10 15V9l5.2 3L10 15Z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#beranda" aria-label="Twitter SD INPRES PERUMNAS PALU">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M21 6.1c-.7.3-1.4.5-2.2.6a3.7 3.7 0 0 0 1.6-2 7.5 7.5 0 0 1-2.4.9 3.8 3.8 0 0 0-6.5 3.5A10.8 10.8 0 0 1 3.8 5a3.8 3.8 0 0 0 1.2 5.1c-.6 0-1.2-.2-1.7-.5 0 1.9 1.3 3.5 3.1 3.8-.6.2-1.2.2-1.7.1a3.8 3.8 0 0 0 3.6 2.6A7.7 7.7 0 0 1 2 18.3a10.8 10.8 0 0 0 5.9 1.7c7 0 10.9-5.9 10.9-11v-.5c.8-.5 1.4-1.2 1.9-2Z"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <nav class="footer__nav" aria-label="Navigasi footer">
+            <h3 class="footer__title">Navigasi</h3>
+            <ul class="footer__links">
+              <li><a href="#beranda">Beranda</a></li>
+              <li><a href="#tentang-kami">Tentang Kami</a></li>
+              <li><a href="#kabar-terkini">Kabar Terkini</a></li>
+              <li><a href="#prestasi">Prestasi</a></li>
+              <li><a href="#visi-misi">Visi dan Misi</a></li>
+              <li><a href="#fasilitas">Fasilitas</a></li>
+            </ul>
+          </nav>
+
+          <div class="footer__contact">
+            <h3 class="footer__title">Kontak</h3>
+            <ul class="footer__contact-list">
+              <li>
+                <span class="footer__contact-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11Z"
+                    />
+                    <circle cx="12" cy="10" r="2.6" />
+                  </svg>
+                </span>
+                <span
+                  >Jl. Ranjidondo, Duyu, Kec. Tatanga, Kota Palu, Sulawesi
+                  Tengah</span
+                >
+              </li>
+              <li>
+                <span class="footer__contact-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M6.5 3.5h3l1.6 4-2 1.4a12 12 0 0 0 6 6l1.4-2 4 1.6v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.5 5.7a2 2 0 0 1 2-2.2Z"
+                    />
+                  </svg>
+                </span>
+                <a href="tel:+622150000000">(021) 5000 0000</a>
+              </li>
+              <li>
+                <span class="footer__contact-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect x="3" y="5" width="18" height="14" rx="3" />
+                    <path d="m4 7 8 6 8-6" />
+                  </svg>
+                </span>
+                <a href="mailto:info@smanusantara.sch.id"
+                  >info@smanusantara.sch.id</a
+                >
+              </li>
+              <li>
+                <span class="footer__contact-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="12" r="8.5" />
+                    <path d="M12 7.5V12l3 2" />
+                  </svg>
+                </span>
+                <span>Senin sampai Jumat, 07.00 sampai 16.00 WIB</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__admission">
+            <h3 class="footer__title">Pendaftaran</h3>
+            <ul class="footer__links">
+              <li><a href="#spmb">Persyaratan Peserta Didik</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p class="footer__copyright">
+            Copyright <span id="currentYear">2026</span> Muslih Rifandani S.Pd,
+            Seluruh hak cipta dilindungi.
+          </p>
+          <p class="footer__meta">
+            Jl. Ranjidondo, Duyu, Kec. Tatanga, Kota Palu, Sulawesi Tengah
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
